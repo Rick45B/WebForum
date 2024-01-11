@@ -1,0 +1,494 @@
+html,body{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+.user{
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#header{
+    background-color: #F0F0F0;
+}
+
+.cardName.profiles{
+  width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#navbar-text{
+    white-space: nowrap;
+}
+
+#log{
+    justify-content: right;
+    white-space: nowrap;
+}
+
+#breadcrumb{
+    padding-top: 12px;
+}
+
+.projectName{
+  width: fit-content;
+  display: flex;
+}
+
+#search-bar{
+    position: relative;
+    margin-left: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+h4{
+    padding-bottom: 20px;
+}
+
+span{
+    display: inline-flex;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+footer{
+  padding-top: 2rem;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  top: 10px;
+  position: sticky;
+  margin-bottom: 2.5rem;
+  /*width: 20vw;*/
+  min-width: 20vw;
+  background-color: #F0F0F0;
+  /*position: fixed;*/
+  /*height: 100%;*/
+  height: 100vh;
+  overflow: hidden;
+  /*float: left;*/
+}
+
+#spanMainContent{
+  display: inline-flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+  
+.sidebar a.active {
+  background-color: #F9D949;
+  color: black;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+#search-bar>button{
+  background-color: #F9D949;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.navigator{
+  position: relative;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  translate: -12px;
+}
+
+a:link{
+  color: black;
+  text-decoration: none;
+}
+
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+.breadcrumb>li>a:link{
+  text-decoration: underline;
+}
+
+.breadcrumb>li>a:visited{
+  text-decoration: underline;
+}
+
+#other{
+  padding-top: 1.5rem;
+}
+
+.card.container-fluid.invisibile{
+  height: 0px;
+  visibility: hidden;
+}
+
+.card-text.text-break.invisibile{
+  overflow: hidden!important;
+  height: 0px;
+}
+
+#userImage{
+  border-radius: 200px;
+  position: absolute;
+  display: inline!important;
+}
+
+/**/
+#main-menu>h3{
+    justify-content: center;
+}
+
+#mainContent
+{
+  min-height: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+#Previous-Next{
+  background-color: #F9D949;
+}
+
+/*Markup per testo dentro le cards.*/
+.card-body>p{
+    /*padding-left: 80px;*/
+    display: inline-block;
+}
+.card-body>div>p{
+    /*padding-left: 80px;*/
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#search-barDropdown{
+  position: absolute;
+  top: 45px;
+  min-width: fit-content;
+}
+
+input[type="radio"]:checked {
+  background-color: #3C486B;
+  padding: 4px;
+  border: 2px solid #3C486B;
+}
+
+.container.card-body.searchedProfile{
+  white-space: nowrap;
+}
+
+.container.card-body.searchedProfile>p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  width: 100%;
+}
+
+#searchedProfilesBackbone>strong{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-wrap: nowrap;
+}
+
+.card-img-top.searchedUserImages{
+  height: 310px;
+}
+
+#BottPagi a:hover:not(.active)
+{
+  background-color: #555;
+  color: white;
+}
+
+#search-barDropdown>li{
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+#search-barDropdown>li>div>label{
+  padding-right: 24px;
+}
+
+#from{
+  width: 101%;
+}
+
+#to{
+  width: 101%;
+}
+
+#nicknameHelpBlock{
+  color: red !important;
+}
+
+#emailHelpBlock{
+  color: red !important;
+}
+
+#repeatEmailHelpBlock{
+  color: red !important;
+}
+
+#passwordHelpBlock{
+  color: red !important;
+}
+
+/*Markup for project pages*/
+#main-menu>h3{
+  justify-content: center;
+}
+
+#intestazione-commenti{
+display: inline-flex;
+}
+
+#intestazione{
+float:left
+}
+
+#comment-add{
+float: right;
+}
+
+#commenti{
+clear: both;
+}
+
+.useful{
+float:right;
+}
+
+.modify-comment{
+float:right;
+}
+
+.navigator{
+clear: both;
+}
+
+#backPagi{
+background-color: #F9D949;
+}
+
+#nextPagi{
+background-color: #F9D949;
+}
+
+/*Markup per testo dentro le cards.*/
+.card-body>a>p{
+  /*padding-left: 80px;*/
+  display: inline-block;
+}
+.card-body>div>a>p{
+  /*padding-left: 80px;*/
+  display: inline-block;
+  padding-right: 10px;
+}
+
+/*Markup per upvote-downvote progetto*/
+#upvote-downvote>a>p{
+display: inline-block;
+padding-right: 10px;
+}
+
+#titolo>h5>a{
+margin-left: 12px;
+}
+
+.delete-comment{
+float: right;
+margin-right: 12px;
+}
+
+.navbar.navbar-expand-md.bg-body-tertiary{
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
+}
+
+@media screen and (max-width:970px) {
+    #navbar-text{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    #search-bar{
+        padding-left: 0px;
+        padding-right: 0px;
+        clear: both;
+    }
+    .dropdown-menu[data-bs-popper]{
+      left:-100px!important;
+    }
+}
+
+@media screen and (min-width: 701px){
+  main{
+    display: inline-flex;
+    float: left;
+    /*position: absolute;*/
+    left:20vw;
+    padding-left: 1.5rem;
+    height: 100%;
+    /*width: 79%;*/
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+  main{
+    display: inline-flex;
+    float: left;
+    left:20vw;
+    margin-top: 12px;
+    height: 100%;
+  }
+  #spanMainContent{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {  /*CSS for smartphones*/
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  #hide{
+    height: 0px;
+    visibility: hidden;
+  }
+  #search-barDropdown{
+    right: 45px;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width:1000px){
+  .sidebar {
+    height: fit-content;
+    position: sticky!important;
+  }
+}
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}

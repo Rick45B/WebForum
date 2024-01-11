@@ -1,0 +1,30 @@
+{
+  "name": "forum",
+  "version": "1.0.0",
+  "description": "A small forum-like website!",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Riccardo Giovanni Gualiumi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "crypto-js": "^4.2.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "fs": "^0.0.1-security",
+    "jszip": "^3.10.1",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.1"
+  }
+}

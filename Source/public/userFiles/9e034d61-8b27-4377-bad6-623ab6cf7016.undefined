@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+void helloWorld(){
+    printf("Hello world!\n");
+}
+
+int main()
+{
+    helloWorld();   //the \n is needed to flush the buffer!
+    return 0;
+}
