@@ -24,6 +24,7 @@ Four users have already signed-up: admin, Bob, Alice, Peter. The password is the
 ## Features
 * Database sensible data (user password and email) stored in the database using salt hashing and SQLite.
 * Basic authentication system using Passport.js
+* Session and cookies.
 * Independent databases for every user joining the website, containing sensible data.
 * Users can upload images and download projects source files.
 * People can interact with each other using various features, such as upvote, downvote and comments.
